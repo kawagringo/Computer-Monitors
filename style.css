@@ -1,0 +1,142 @@
+body {
+    /*background pattern from https://www.toptal.com/designers/subtlepatterns/ */
+    background-image: url(img/background.png);
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+a:link {
+    color: #b40505;
+    text-decoration: none;
+}
+a:visited {
+    color: #b40505;
+    text-decoration: none;
+}
+a:hover {
+    color: black;
+    background-color: #fc0202;
+    transform: scale(1.2);
+}
+a:active {
+    color: #b40505;
+    text-decoration: none;
+}
+
+header {
+    width: auto;
+    height: auto;
+    background-color: #fc02023d;
+    color: #fc0202;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 70px;
+    letter-spacing: 4px;
+    border-bottom: 1px solid #fc0202;
+    text-shadow:
+    3px 3px 0 #fc02023d,
+    -3px 3px 0 #fc0202,
+    -3px -3px 0 #fc02023d,
+    3px -3px #fc0202;
+}
+
+main {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #fc020218;
+    padding: 10px;
+    border-left: 1px solid #fc0202;
+    border-right: 1px solid #fc0202;
+}
+
+nav {
+    background-color: #fc02020c;
+    width: 99%;
+    min-height: 350px;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fc0202;
+    text-align: center;
+    border-left: 1px solid #fc0202;
+    border-right: 1px solid #fc0202;
+}
+
+ol {
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    list-style-type: none;
+    line-height: 150%;
+    display: inline-block;
+    text-align: center;
+}
+
+ol > li {
+    width: 25%;
+    height: fit-content;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 3px;
+    float: left;
+    text-align: left;
+}
+
+ol > li > ul {
+    font-size: 20px;
+    text-transform: none;
+    font-weight: 400;
+    padding: 5px;
+    letter-spacing: 0px;
+    list-style-type: none;
+}
+
+ol > li > ul > li {
+    margin: 0px;
+}
+
+ol > li > ul > li:before {
+    color: #fc0202;
+    content: "❒";
+    margin-right: 10px;
+}
+
+.slide {
+    padding: 20px 40px;
+    text-align: justify;
+    color: #b48484;
+}
+
+h1 {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fc0202;
+}
+
+.scrollup{
+    width: 64px;
+    height: 64px;
+    text-decoration: none;
+    background: url("img/up.png") no-repeat 0px 0px;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    display: none;
+}
+
+footer {
+    text-align: center;
+    background-color: #fc02023d;
+    color: #fc0202;
+    border-bottom: 1px solid #fc0202;
+    padding: 3px;
+
+}
